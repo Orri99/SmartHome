@@ -1,0 +1,50 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    body {
+        margin: 0;
+        background-color: #f9d1d1;
+        /* background-color: #f9d388; */
+    }
+    h1 {
+        font-size: 1.8rem;
+        color: white;
+    }
+    .topnav {
+        overflow: hidden;
+        
+    }
+    Button {
+        border: none;
+        color: #FEFCFB;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        width: 100px;
+        border-radius: 4px;
+        transition-duration: 0.4s;
+    }
+    .state {
+        font-size: 1.2rem;
+        color: #244b8c;
+    }
+    .card-grid {
+        max-width: 800px;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .card {
+        background-color: white;
+        /* border: 10px solid #FFF500; 
+        box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5); */
+        box-shadow: 5px 5px rgba(140,140,140,.5);
+    }
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #244b8c;
+    }
